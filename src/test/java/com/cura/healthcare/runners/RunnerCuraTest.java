@@ -5,13 +5,13 @@ import io.cucumber.testng.CucumberOptions;
 
 
    @CucumberOptions(features = {
-        "src/test/resources/features/Authentication.feature"
-        // "src/test/resources/features/appointment.feature"
+        "src/test/resources/features/Authentication.feature",
+        "src/test/resources/features/appointment.feature"
 
         
 }, glue = {
-        "com.cura.healthcare.definitions.authentications",
-        "com.cura.healthcare.definitions.appointment"
+        "com.cura.healthcare.definitions"
+        
         
 }, plugin = {
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

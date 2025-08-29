@@ -1,4 +1,4 @@
-package com.cura.healthcare.definitions.appointment;
+package com.cura.healthcare.definitions;
 
 
 
